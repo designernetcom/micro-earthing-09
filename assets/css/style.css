@@ -412,7 +412,7 @@
   display: inline-block;
 }
 .vl-primary-btn .text {
-  background: var(--vkl-text-text-1);
+  background: #00A95A;
   color: var(--vkl-text-text-white);
   font-size: var(--vkl-font-size-font-s18);
   line-height: var(--vkl-specing-height18);
@@ -422,8 +422,16 @@
   margin-right: -5px;
   transition: 0.3s;
 }
+.btn-success{
+   background:#01A95A !important;
+}
+.btn-success:hover{
+   background:#151515 !important;
+}
+
+
 .vl-primary-btn .arrow {
-  background: var(--vkl-text-text-1);
+  background:#01A95A;
   height: 50px;
   width: 50px;
   line-height: 50px;
@@ -4601,6 +4609,7 @@ p {
 
 .pb-32 {
   padding-bottom: 32px;
+  text-align: justify;
 }
 
 .pb-33 {
@@ -9183,6 +9192,8 @@ marquee {
   margin-right: 20px;
   margin-top: -100px;
   position: relative;
+  border: 0.5px solid green;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
 }
 .vl-servic-icon-box .vl-icon span {
   background: var(--vkl-bg-bg-2);
@@ -9626,6 +9637,7 @@ marquee {
 
 .vl-team-wrap {
   border-radius: 20px;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
   border: 1px solid rgba(16, 17, 16, 0.1);
   padding: 20px;
   transition: 0.3s;
@@ -9701,6 +9713,7 @@ marquee {
 
 .team-active .swiper-slide {
   background: transparent;
+  margin: 40px 0px;
 }
 .team-active .swiper-slide::after {
   background: transparent;
@@ -10360,7 +10373,7 @@ marquee {
 /*  Exp area
 /*----------------------------------------*/
 .vl-exp-area {
-  background: var(--vkl-text-text-1);
+  background: #01A859;
   transition: 0.3s;
   position: absolute;
   left: 0;
@@ -11453,3 +11466,4 @@ marquee {
 }
 
 /*# sourceMappingURL=style.css.map */
+
