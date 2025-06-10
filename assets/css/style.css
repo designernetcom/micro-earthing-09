@@ -1830,6 +1830,8 @@
 .vl-cconter-box .vl-single-conter {
   display: inline-block;
   padding-right: 50px;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  padding: 45px;
 }
 .vl-cconter-box .vl-single-conter .title {
   color: var(--vkl-text-text-2);
@@ -7570,7 +7572,7 @@ p {
 .vl-main-menu ul > li .sub-menu {
   position: absolute;
   top: 105%;
-  width: 180px;
+  width: 300px;
   left: 0;
   background: var(--vkl-text-text-white);
   border-radius: 6px;
@@ -11467,3 +11469,44 @@ marquee {
 
 /*# sourceMappingURL=style.css.map */
 
+.vision-box p{
+ text-align: justify;
+}
+.vision-box img{
+  max-height: 230px;
+}
+.vision-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+  margin: 10px;
+  border-top: 4px solid #00A85A;
+  border-top-right-radius: 40px;
+  border-top-left-radius: 40px;
+  border-bottom: 2px solid  #E03337;
+  cursor: pointer;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+.vision-box:hover{
+box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+ transition: 0.4s;
+}
+
+.bottom-hr{
+  margin:  0;
+    color: green;
+    border: 0;
+    border-top: 6px green solid;
+    opacity: 1;
+    width: 100px !important;
+    border-radius: 20px;
+    margin-top: 8px;
+}
+.Certification-box{
+  margin: 10px;
+  padding: 20px;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  
+}
