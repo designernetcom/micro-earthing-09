@@ -71,6 +71,23 @@
            border: 2px solid green;
            padding: 20px;
       }
+
+
+      @keyframes fadeInRight {
+   from {
+      opacity: 0;
+      transform: translateX(50px);
+   }
+   to {
+      opacity: 1;
+      transform: translateX(0);
+   }
+}
+
+.fade-in-right {
+   animation: fadeInRight 1s ease-out both;
+}
+
    </style>
 </head>
 
@@ -281,79 +298,35 @@
          <div class="swiper-container">
             <div class="swiper-wrapper fix">
                <!-- Slides -->
-               <div class="swiper-slide">
+               <div class="swiper-slide" style="opacity: 0;">
                   <!-- slider thumb -->
                   <div class="slide-1 swiper-slide-cover video-slide">
-  <video autoplay muted loop playsinline>
-    <source src="assets/img/banner/Micro Banner.mp4" type="video/mp4" />
-    Your browser does not support the video tag.
-  </video>
+  <video autoplay muted loop playsinline  >
+  <source src="assets/img/banner/Micro Banner.mp4" type="video/mp4"  />
+  Your browser does not support the video tag.
+</video>
 </div>
 
                   <div class="container pt-218 pb-254">
-                     <div class="row">
-                        <div class="col-lg-6">
-                           <div class="vl-banner-content p-relative fix">
-                              <div class="vl-section-title">
-                                 <!-- content -->
-                                 <h4 class="subtitle vl-upper br-8"><span><img src="assets/img/icon/vl-like-1.1.svg"
-                                          alt=""></span>Earthing Electrode</h4>
-                                 <h3 class="pt-20 pb-20" style="color: #fff;">Earthing Electrode </h3>
-                                 <p class="pb-32">We are Manufacturer, Supplier and Exporter of <br>Earthing Electrode
-                                    and our setup is situated in Pune</p>
+                    <div class="row align-items-center">
+   <div class="col-lg-6">
+      <!-- Existing content -->
+      <div class="vl-banner-content p-relative fix">
+        
+      </div>
+   </div>
+   <div class="col-lg-6 text-end">
+      <!-- Right side animated image -->
+      <div class="slide-image fade-in-right">
+         <img src="assets/img/banner/slide1.2.png" alt="Earthing Electrode" class="img-fluid" style="height: 300px;">
+      </div>
+   </div>
+</div>
 
-                              </div>
-                           </div>
-                        </div>
-                     </div>
                   </div>
                </div>
                <!-- Slides -->
-               <div class="swiper-slide">
-                  <!-- slider thumb -->
-                  <div class="slide-1 swiper-slide-cover"
-                     style="background-image: url(assets/img/banner/microbanner2.1.png);"></div>
-                  <div class="container pt-218 pb-254">
-                     <div class="row">
-                        <div class="col-lg-6">
-                           <div class="vl-banner-content p-relative fix">
-                              <div class="vl-section-title">
-                                 <!-- content -->
-                                 <h4 class="subtitle vl-upper br-8"><span><img src="assets/img/icon/vl-like-1.1.svg"
-                                          alt=""></span>Lightning Arrester</h4>
-                                 <h3 class="pt-20 pb-20" style="color: #fff;">Lightning Arrester </h3>
-                                 <p class="pb-32">A lightning arrester is a device used on electric power systems <br>
-                                    and telecommunication systems.</p>
-
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <div class="swiper-slide">
-                  <!-- slider thumb -->
-                  <div class="slide-1 swiper-slide-cover"
-                     style="background-image: url(assets/img/banner/vl-banner-slide-1.1.png);"></div>
-                  <div class="container pt-218 pb-254">
-                     <div class="row">
-                        <div class="col-lg-6">
-                           <div class="vl-banner-content p-relative fix">
-                              <div class="vl-section-title">
-                                 <!-- content -->
-                                 <h4 class="subtitle vl-upper br-8"><span><img src="assets/img/icon/vl-like-1.1.svg"
-                                          alt=""></span>FRP Manhole Cover </h4>
-                                 <h3 class="pt-20 pb-20" style="color: #fff;">FRP Manhole Cover </h3>
-                                 <p class="pb-32">Offering you a complete choice of products which include <br>FRP
-                                    Manhole Cover
-                                    in the brand name -Micro Sense.</p>
-
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
+          
             </div>
             <!-- navigation arrows -->
             <div class="container">
@@ -395,8 +368,7 @@
                      data-sal-easing="ease-in-out">
                      <!-- section title -->
                      <div class="vl-section-title">
-                        <h4 class="subtitle vkl-text-blck vl-upper vkl-cream-bg br-8"><span><img
-                                 src="assets/img/icon/vl-like-1.1.svg" alt=""></span> About Us</h4>
+                 
                         <h2 class="title vkl-text-blck pt-20 pb-16">Micro Sense Earthing Solutions</h2>
                         <p class="pb-32" style="text-align: justify;">Micro Sense Earthing Solutions is an established &
                            premier manufacturer of Chemical Earthing & lightning protection systems in Maharashtra. We
@@ -516,14 +488,13 @@
       </section>
 
 
-      <section class="vl-team-area vkl-cream-bg p-relative pt-100 pb-100">
+      <section class="vl-team-area vkl-cream-bg p-relative pt-100">
          <div class="container">
             <div class="row">
                <div class="col-lg-7">
                   <!-- section title start-->
                   <div class="vl-section-title mb-60">
-                     <h4 class="subtitle vkl-text-blck vl-upper vkl-white-bg br-8"><span><img
-                              src="assets/img/icon/vl-like-1.1.svg" alt=""></span>Our Products</h4>
+                     
                      <h2 class="title vkl-text-blck pt-16">Products</h2>
                   </div>
                   <!-- section title end-->
