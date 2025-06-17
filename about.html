@@ -230,18 +230,44 @@
    <!--================= Header section End =================-->
    <main>
       <!--================= breadcrumb section start =================-->
-      <section class="vl-breadcrumb-area" style="background-image: url(assets/img/banner/micro-sense3.png);">
-         <div class="container">
-            <div class="row">
-               <div class="col-lg-7">
-                  <!-- breadcrumb content -->
-                  <div class="vl-breadcrumb-content">
-
-                  </div>
-               </div>
-            </div>
+      <style>
+         .vl-breadcrumb-area {
+           position: relative;
+           overflow: hidden;
+           height: 50vh; /* Adjust height as needed */
+         }
+       
+         .video-slide video {
+           position: absolute;
+           top: 50%;
+           left: 50%;
+           width: 100%;
+           height: 100%;
+           object-fit: cover;
+           transform: translate(-50%, -50%);
+           z-index: 1;
+         }
+       
+         .vl-breadcrumb-area .content {
+           position: relative;
+           z-index: 2;
+           color: white; /* Example for visibility */
+           text-align: center;
+           padding: 100px 20px;
+         }
+       </style>
+       
+       <section class="vl-breadcrumb-area">
+         <div class="video-slide">
+           <video autoplay muted loop playsinline>
+             <source src="assets/img/banner/Micro Banner.mp4" type="video/mp4" />
+             Your browser does not support the video tag.
+           </video>
          </div>
-      </section>
+       
+
+       </section>
+       
       <!--================= breadcrumb section End =================-->
       <!--================= About section start =================-->
       <section class="vl-aboutus pt-100 ">
